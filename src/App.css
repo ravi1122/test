@@ -1,0 +1,42 @@
+/* * {
+  background-color: rgb(248, 244, 244); */
+
+/* carsDiv {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+} */
+
+.App {
+  position: inline;
+  display: flex;
+  padding: 15px;
+}
+
+.carsDiv {
+  float: left;
+  width: 60em;
+  height: 60em;
+  margin-left: -7px;
+  margin-right: 49px;
+}
+.picture {
+  width: 21em;
+  height: 17em;
+}
+.circle1 {
+  width: 3.5em;
+  height: 4em;
+  margin-top: 26em;
+  margin-left: 9px;
+}
+
+.circle2 {
+  width: 3.5em;
+  height: 4em;
+  margin-top: 26em;
+  transform: rotateY(180deg);
+  margin-left: -178px;
+}
